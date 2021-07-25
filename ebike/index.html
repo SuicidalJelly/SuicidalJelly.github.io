@@ -100,29 +100,30 @@
               <p class="card-text">The finished bike, in its current form.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#exampleModal">More details</button>
-                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#modal1">More details</button>
+
+                  <!-- Modal1 -->
+                  <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <h5 class="modal-title" id="exampleModalLabel">Finished Bike</h5>
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </div>
                         <div class="modal-body">
-                          <p>hello</p>
+                          <p>The finished bike features an underslung motor with a three stage reduction gearbox to the back wheel. A primary belt drive reduces noise from the high RPM while the last two stages use chains for higher torque capacity. In fact, the last stage is the bicycle's original derailleur drivetrain, effectively mimicking a sequential 7 speed gearbox. A 48v 20Ah battery provides a range of 30-60 miles depending on ride style.</p>
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+
+
                 </div>
-                <!-- <small class="text-muted">9 mins</small> -->
               </div>
             </div>
           </div>
@@ -139,7 +140,29 @@
               <p class="card-text">The whole build revolved around the decision to use a high KV BLDC motor instead of the industry standard direct drive hub motors.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Why?</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#modal2">Why?</button>
+
+                  <!-- Modal2 -->
+                  <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">High KV Motor</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Compared to a conventional hub motor, this configuration offers multiple benefits. Direct drive hub motors of comparible wattage offer low torque performance with a significant weight penalty of roughly 7kg. This high KV motor on the other hand, weighs only 3kg and offers nearly 4 times the torque due to the 22:1 drivetrain. The downsides however, are the added complexity and noise.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
                   <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
                 </div>
                 <!-- <small class="text-muted">9 mins</small> -->
